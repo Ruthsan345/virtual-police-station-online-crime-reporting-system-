@@ -11,7 +11,7 @@ import javax.swing.ImageIcon;
 
 /**
  *
- * @author ROSE
+ * @author ruth
  */
 public class NewJFrame extends javax.swing.JFrame {
 
@@ -99,26 +99,26 @@ public class NewJFrame extends javax.swing.JFrame {
 
         setSize(new java.awt.Dimension(680, 566));
         setLocationRelativeTo(null);
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void jLabel2MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MousePressed
         ImageIcon A = new ImageIcon(getClass().getResource("images/closec.png"));
         jLabel2.setIcon(A);
-    }//GEN-LAST:event_jLabel2MousePressed
+    }
 
     private void jLabel2MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseExited
         ImageIcon B = new ImageIcon(getClass().getResource("images/close_1.png"));
         jLabel2.setIcon(B);
-    }//GEN-LAST:event_jLabel2MouseExited
+    }
 
     private void jLabel2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseEntered
         ImageIcon A = new ImageIcon(getClass().getResource("images/closeho.png"));
         jLabel2.setIcon(A);
-    }//GEN-LAST:event_jLabel2MouseEntered
+    }
 
     private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel2MouseClicked
         this.dispose();
-    }//GEN-LAST:event_jLabel2MouseClicked
+    }
 
     private void jLabel3MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MouseDragged
         int x = evt.getXOnScreen();
@@ -126,12 +126,12 @@ public class NewJFrame extends javax.swing.JFrame {
         
         this.setLocation(x - xmouse, y - ymouse);
         System.out.println(x+","+y);
-    }//GEN-LAST:event_jLabel3MouseDragged
+    }
 
     private void jLabel3MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel3MousePressed
         xmouse = evt.getX();
         ymouse = evt.getY();
-    }//GEN-LAST:event_jLabel3MousePressed
+    }
 
     /**
      * @param args the command line arguments
@@ -176,6 +176,7 @@ public class NewJFrame extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     // End of variables declaration//GEN-END:variables
 
+    //set an icon
     private void setIcon() {
         setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("images/ico.png")));
     }
